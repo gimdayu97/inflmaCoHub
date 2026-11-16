@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="ko"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>InflmaHub</title><style>
+:root{--bg:#fff;--fg:#1f2328;--muted:#59636e;--line:#d1d9e0;--accent:#0969da}
+@media (prefers-color-scheme:dark){:root{--bg:#0d1117;--fg:#e6edf3;--muted:#9198a1;--line:#3d444d;--accent:#4493f8}}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.65 -apple-system,"Segoe UI","Malgun Gothic",sans-serif}
+main{max-width:820px;margin:0 auto;padding:32px 16px 64px}h1{font-size:1.8em;margin:.2em 0 .6em}h2{font-size:1.25em;margin:1.8em 0 .5em;border-bottom:1px solid var(--line);padding-bottom:.3em}
+a{color:var(--accent)}table{border-collapse:collapse;width:100%;display:block;overflow-x:auto;margin:1em 0}th,td{border:1px solid var(--line);padding:6px 10px;text-align:left;vertical-align:top}
+code{background:rgba(127,127,127,.15);padding:1px 5px;border-radius:4px}.muted{color:var(--muted)}nav{margin-bottom:24px}nav a{margin-right:16px}footer{margin-top:48px;color:var(--muted);font-size:.9em}
+</style></head>
+<body><main><nav><a href="./">InflmaHub</a><a href="privacy.html">개인정보처리방침</a></nav>
+<h1>InflmaHub</h1>
+<p>InflmaHub는 인플루언서 협업 담당자가 <b>자기 Windows PC에 설치해 쓰는 개인용 프로그램</b>입니다.
+Gmail, Instagram DM, 카카오톡으로 나뉘어 있는 협업 대화를 한 화면에 모아 보고, 답장이 필요한 대화와 일정을 놓치지 않도록 돕습니다.
+소수 지인에게만 개인적으로 배포되며, 판매하거나 광고하지 않습니다.</p>
+
+<h2>Google 사용자 데이터 이용</h2>
+<ul>
+<li><b>요청하는 권한</b>: <code>gmail.readonly</code>(협업 메일 읽기), <code>gmail.send</code>(사용자가 직접 [발송]을 누른 답장 보내기), <code>openid</code>(Google 계정 구분)</li>
+<li><b>이용 목적</b>: 협업 메일을 통합 수신함, 인플루언서별 대화 기록, 답장·일정 리마인드에 표시하는 것에만 씁니다.</li>
+<li><b>저장 위치</b>: 메일은 Google에서 <b>사용자 PC로 직접</b> 받아, 그 PC에만 암호화(AES-256)해 저장합니다. 운영자 서버가 없고, 개발자는 메일이나 로그인 토큰을 받지 않습니다.</li>
+<li><b>AI 분석</b>: 사용자가 따로 동의한 경우에만, 사용자 본인의 AI API 키로 필요한 최소 내용을 보냅니다. Google 사용자 데이터를 광고나 AI 모델 학습에 쓰지 않으며, 판매하거나 다른 곳에 넘기지 않습니다.</li>
+<li><b>삭제</b>: 앱 설정에서 언제든 연결 해제(Google 권한 취소 포함)와 데이터 삭제를 할 수 있습니다.</li>
+</ul>
+<p>InflmaHub가 Google API로 받은 정보를 사용하고 다른 앱으로 전송하는 방식은 Limited Use 요건을 포함한
+<a href="https://developers.google.com/terms/api-services-user-data-policy">Google API 서비스 사용자 데이터 정책</a>을 따릅니다.</p>
+<p>자세한 내용은 <a href="privacy.html">개인정보처리방침</a>을 확인하세요.</p>
+
+<footer>문의: <a href="mailto:dayu1997@kakao.com">dayu1997@kakao.com</a></footer></main></body></html>
